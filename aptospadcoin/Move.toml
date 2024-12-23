@@ -1,0 +1,12 @@
+[package]
+name = 'AptosPadCoin'
+version = '1.0.0'
+upgrade_policy = "compatible"
+
+[addresses]
+aptospad_coin = "4024818cc0fba5c0abf2af4fe9b98e4439e09b4d9c5698bc7e2d6b6c6b4e287e"
+
+[dev-dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "a2a3bf79b68823287f962bded2abfaefc688e71c"
+subdir = "aptos-move/framework/move-stdlib"
